@@ -2,8 +2,8 @@
 > A cool playground.
 
 Teste técnico feito para a empresa Kukac que aprensenta 4 propostas.
-1. Palindromos: Descobrir números palíndromos entre um intervalo
-2. Caixa: Descobrir o troco de um compra, e quantas notas de 100, 10 e 1 podem ser retornadas.
+1. Palindromos: Descobrir números palíndromos entre um intervalo.
+2. Caixa: Descobrir o troco de uma compra, e quantas notas de 100, 10 e 1 podem ser retornadas.
 3. Garagem: Organizar véiculos em uma gararem, apresentados seus dados de forma organizada.
 4. CEP: Descobrir a localidade de 5 CEPs.
 
@@ -19,11 +19,21 @@ npm install
 
 ## Como rodar o backend
 
-Rode o backend simultaneamente com o frontend
+Rode o backend simultaneamente com o frontend com o seguinte comando:
 
 ```sh
 npm run dev
 ```
+##  Ténologias usadas
+
+Para implementação do backend foi usado:
+
+1. Node
+2. Express
+3. Jest
+
+
+
 ##  Executando os testes
 
 Para executar os teste unitários, rode o comando abaixo.
