@@ -45,9 +45,8 @@ describe("Garage Component", () => {
   });
 
   it("should try to remove the garage JSON file and return the error", () => {
-    expect(() => {
-      getGarageJson();
-    }).toThrowError("O arquivo não existe.");
+    const errorMessage = getGarageJson();
+    expect(errorMessage).toBe("O arquivo não existe.");
   });
 
   it("should throw an error when attempting to remove a non-existing garage JSON file", () => {
