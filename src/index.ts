@@ -9,6 +9,3 @@ app.use(express.urlencoded());
 app.use("/", router);
 
 app.listen(8081, () => console.log("Server is listening"));
-app.on("listening", function () {
-  console.log("Express server started on port %s at %s");
-});

@@ -1,13 +1,12 @@
 import { existsSync, readFileSync, writeFileSync } from "fs";
 import { Car } from "../interfaces/car";
 import { Motorcycle } from "../interfaces/motorcycle";
-import { error } from "console";
 
 export type IncomingVehicle =
   | (Car & { vehicleType: string })
   | (Motorcycle & { vehicleType: string });
 
-const file = "database/garage.json";
+const file = "src/database/garage.json";
 
 export function saveVehicle(data: IncomingVehicle) {
   const vehicle =
